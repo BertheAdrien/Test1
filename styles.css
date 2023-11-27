@@ -1,7 +1,10 @@
 body {
     margin: 0 auto;
     text-align: center;
-    background-color: black;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .bandeau {
@@ -19,12 +22,28 @@ body {
     background-size: cover; 
     background-position: center;     
     color: white;
-
     width: 100%;
     height: 300px; 
+    flex:1;
+    margin-bottom: 10px;
     
   }
   .Email{
     color: white;
-
+    Flex : 1;
   }
+
+.Bloc {
+    color: white;
+    flex: 1;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.DivText{
+    align-items: center;
+    flex:1;
+    justify-content: center; 
+}

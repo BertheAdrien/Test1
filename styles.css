@@ -161,28 +161,59 @@ body {
   font-size: 27px;
 }
 
-.list-container {
-  margin-top: 20px;
-  color: white;
-}
-
-.question-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.question-list li {
+footer{
+  margin: 0 auto;
+  text-align: left;
+  background-color: black;
   display: flex;
   justify-content: space-between;
-  width: 50%;
-  margin-bottom: 10px;
+  flex-direction: column;
 }
 
-.list-header {
-  font-weight: bold;
+.ContactUs{
+  margin: 0 auto;
+  
 }
+
+.question{
+  color: #666;
+ 
+}
+
+ul{
+  padding: 0;
+
+}
+li{
+  padding: 2px;
+}
+.list-container {
+
+
+  align-items: left;
+  flex-direction: row;
+  justify-content: left;
+  display: flex;
+
+}
+
+.listColonne  {
+  
+  list-style: none;
+  font-size: 20px;
+  margin-right: 80px;
+  width: 100%;
+
+}
+
+.listColonne a {
+  text-decoration: none;
+  cursor: default; 
+  color: #666;
+  
+}
+
+
+
 
 
